@@ -1,0 +1,19 @@
+{
+  "name": "protractor_framework",
+  "version": "1.1.0",
+  "description": "An example Protractor project that makes use of page objects...",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "scripts": {
+    "update": "node_modules/.bin/webdriver-manager update",
+    "start": "node_modules/.bin/webdriver-manager update",
+    "protractor": "node_modules/.bin/protractor conf.js"
+  },
+  "dependencies": {
+    "protractor": "5.4.1",
+    "jasmine-spec-reporter": "2.7.0",
+    "protractor-flake": "3.3.0",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
